@@ -90,7 +90,7 @@ main {
 
   padding: 15px 25px;
 
-  color: #FFF;
+  color: #fff;
   font-size: 75px;
   font-weight: 900;
 
@@ -100,8 +100,22 @@ main {
 }
 
 .weather-box .weather {
-  color: #FFF;
+  color: #fff;
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+@media screen and (min-width: 530px) {
+  body {
+    background-image: linear-gradient(#603186, #c27823);
+    justify-content: center;
+  }
+  .app {
+    justify-content: center;
+    width: 435px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
